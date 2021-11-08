@@ -1,11 +1,46 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ITM</title>
+    <title>ITM - project Endor</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
 </head>
+
 <body>
     
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="/Images/logo_wcy.png" alt="logo" width="100px" , height="100px"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">ABOUT</a></li>
+                        <li><a href="">CONTACT</a></li>
+                        <li><a href="">EMAIL</a></li>
+                    </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>Instytut Telekomunikacji i Cybernetyki </h1>
+            <p>
+                Instytut Teleinformatyki i Cyberbezpieczeństwa jest jednym z trzech instytutów Wydziału Cybernetyki
+                Wojskowej Akademii Technicznej. Historia tych katedr sięga 1968 roku.
+            </p>
+            <a href="" class="hero-btn">Odwiedź Nas Po Więcej Inforamcji</a>
+        </div>
+
+    </section>
+    <script src="/JS/script.js"></script>
+
 </body>
+
 </html>
