@@ -249,7 +249,44 @@ h1{
 
 }
 
+/*------------------------- info ------------------------ */
 
+.info{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.info-col{
+    flex-basis: 45%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+
+.info-col img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.info-col p{
+    padding: 0;
+}
+
+.info-col h3{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    text-align: left;
+}
+
+/*------------------------- long info ------------------------ */
+
+.long-info{
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+}
 
 
  
